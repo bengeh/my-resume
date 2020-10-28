@@ -1,26 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
+import styled from 'styled-components'
+import PersonalProfileContent from './components/PersonalProfileContent'
+import GitHubGraph from './components/GitHubGraph'
+import LeetCodeGraph from './components/LeetCodeGraph'
+import ExperienceContent from './components/ExperienceContent'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainPage>
+      <LeftContainer>
+        <GitHubGraph></GitHubGraph>
+        <LeetCodeGraph></LeetCodeGraph>
+      </LeftContainer>
+      <RightContainer>
+        <PersonalProfileContent></PersonalProfileContent>
+        <ContainerBreaker />
+        <ExperienceContent title={"EXPERIENCE"}></ExperienceContent>
+        <ContainerBreaker/>
+        <ExperienceContent title={"EDUCATION"}></ExperienceContent>
+        <ContainerBreaker/>
+        <ExperienceContent title={"SUMMARY"}></ExperienceContent>
+      </RightContainer>
+    </MainPage>
   );
 }
+
+const ContainerBreaker = styled.hr`
+  border-color: orange;
+`
+
+const MainPage = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+const LeftContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 25%
+`
+
+
+const RightContainer = styled.div`
+  width: 50%;
+`
 
 export default App;
