@@ -30,7 +30,7 @@ const SummaryContent = () => {
                 {
                     summary.map((k :any) => {
                         return(
-                            <SummaryContentContainer>
+                            <SummaryContentContainer key={k.desc}>
                                 <Summary >{k.desc}</Summary>
                                 <SummaryBar currentLevel={k.currentLevel}>{k.currentLevel}%</SummaryBar>
                             </SummaryContentContainer>

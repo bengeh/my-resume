@@ -25,6 +25,8 @@ import {
                 }
               }
           })
+          console.log("this the language map...")
+          console.log(langaugeMap)
         return {
           ...state,
           gitHubData: langaugeMap

@@ -43,6 +43,7 @@ const LeftContainer = styled.div`
 
 const RightContainer = styled.div`
   width: 50%;
+  padding: 0 0 0 15px;
 `
 
 export default App;

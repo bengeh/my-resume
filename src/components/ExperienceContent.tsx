@@ -67,7 +67,6 @@ const ExperienceContent = (props: ExperienceContentProps) => {
             <ExperienceContentTitle>{props.title}</ExperienceContentTitle>
             {props.title === "EXPERIENCE" ?
                 jobScope.map((k: any) => {
-                    console.log("this is the k..." + k.roleTitle)
                     return(
                         <ExperienceContentContainer key={k.roleTitle}>
                             <ExperienceContentRolesTitle>
@@ -79,7 +78,6 @@ const ExperienceContent = (props: ExperienceContentProps) => {
                             </ExperienceContentRolesPosContainer>
                             <ExperienceContentUL>
                                 {k.jobDesc.map((v: any) => {
-                                    console.log("this is the v..." + v)
                                     return(
                                         <li key={v}>{v}</li>
                                     )
@@ -90,7 +88,6 @@ const ExperienceContent = (props: ExperienceContentProps) => {
                 })
             : props.title === "EDUCATION" ?
             educationScope.map((k: any) => {
-                console.log("this is the k..." + k.roleTitle)
                 return(
                     <ExperienceContentContainer key={k.schoolName}>
                         <ExperienceContentRolesPosContainer>
@@ -99,7 +96,6 @@ const ExperienceContent = (props: ExperienceContentProps) => {
                         </ExperienceContentRolesPosContainer>
                         <ExperienceContentUL>
                             {k.projects.map((v: any) => {
-                                console.log("this is the v..." + v)
                                 return(
                                     <li key={v}>{v}</li>
                                 )
