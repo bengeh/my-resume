@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-resume/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/my-resume/static/js/main.1ecff23b.chunk.js",
-    "main.js.map": "/my-resume/static/js/main.1ecff23b.chunk.js.map",
+    "main.js": "/my-resume/static/js/main.577fc6a2.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.577fc6a2.chunk.js.map",
     "runtime-main.js": "/my-resume/static/js/runtime-main.c401a947.js",
     "runtime-main.js.map": "/my-resume/static/js/runtime-main.c401a947.js.map",
     "static/js/2.f1fee041.chunk.js": "/my-resume/static/js/2.f1fee041.chunk.js",
@@ -11,12 +11,18 @@
     "static/js/3.44192dac.chunk.js.map": "/my-resume/static/js/3.44192dac.chunk.js.map",
     "index.html": "/my-resume/index.html",
     "static/css/main.ab7136cd.chunk.css.map": "/my-resume/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.f1fee041.chunk.js.LICENSE.txt": "/my-resume/static/js/2.f1fee041.chunk.js.LICENSE.txt"
+    "static/js/2.f1fee041.chunk.js.LICENSE.txt": "/my-resume/static/js/2.f1fee041.chunk.js.LICENSE.txt",
+    "static/media/go.4c88fbf9.svg": "/my-resume/static/media/go.4c88fbf9.svg",
+    "static/media/html5.3efc40a5.svg": "/my-resume/static/media/html5.3efc40a5.svg",
+    "static/media/java.a351f739.svg": "/my-resume/static/media/java.a351f739.svg",
+    "static/media/javascript.ba40d6a9.svg": "/my-resume/static/media/javascript.ba40d6a9.svg",
+    "static/media/python.e6d7dc73.svg": "/my-resume/static/media/python.e6d7dc73.svg",
+    "static/media/typescript.a6305a73.svg": "/my-resume/static/media/typescript.a6305a73.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c401a947.js",
     "static/js/2.f1fee041.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.1ecff23b.chunk.js"
+    "static/js/main.577fc6a2.chunk.js"
   ]
 }
