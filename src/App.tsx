@@ -4,6 +4,7 @@ import PersonalProfileContent from './components/PersonalProfileContent'
 import GitHubGraph from './components/GitHubGraph'
 import LeetCodeGraph from './components/LeetCodeGraph'
 import ExperienceContent from './components/ExperienceContent'
+import SkillsList from './components/SkillsList'
 import './App.css';
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <ContainerBreaker/>
         <ExperienceContent title={"EDUCATION"}></ExperienceContent>
         <ContainerBreaker/>
+        <SkillsList></SkillsList>
+        <ContainerBreaker />
         <ExperienceContent title={"SUMMARY"}></ExperienceContent>
       </RightContainer>
     </MainPage>
