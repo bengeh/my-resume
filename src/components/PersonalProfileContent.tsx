@@ -20,12 +20,17 @@ const PersonalProfileContentContainer = styled.div`
     flex-direction: row
 `
 const PersonalProfileTitle = styled.div`
-    width: 25%;
     white-space: nowrap;
     font-weight: bold;
+    @media(min-width: 1024px) {
+        width: 25%;
+    }
 `
 const PersonalProfileDesc = styled.div`
-    padding: 0 0 0 50px;
+    padding: 0 0 0 25px;
+    @media(min-width: 1024px) {
+        padding: 0 0 0 50px;
+    }
 `
 
 
