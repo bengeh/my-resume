@@ -38,9 +38,12 @@ const MainPage = styled.div`
   flex-direction: row;
 `
 const LeftContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 25%
+  display: none;
+  width: 25%;
+  @media(min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+}
 `
 
 
