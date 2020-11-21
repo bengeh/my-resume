@@ -11,13 +11,11 @@ const GitHubGraph = () => {
     let languageDataSet: Array<String> = []
     let languageDataNumber: any = []
     let chartData: any = []
-    const [chartHaveData, setChartHaveData] = useState(false)
     const gitHubData = useSelector((state: AppState) => state.gitHubData);
     console.log("this the github data...")
     console.log(gitHubData)
     useEffect(() => {
         dispatch(getGitHubData());
-        setChartHaveData(true)
     }, [dispatch]);
     for (let k in gitHubData.gitHubData){
         languageDataSet.push(k)
@@ -45,7 +43,7 @@ const GitHubGraph = () => {
     return(
         <ChartWrapper>
             {
-                chartHaveData ? <Doughnut data={chartData} options={{
+                !gitHubData.isLoading ? <Doughnut data={chartData} options={{
                 title:{
                 display:true,
                 text:'Git Hub Info',

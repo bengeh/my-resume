@@ -6,7 +6,8 @@ import {
 
   
   const initialStateGetGitHubData: GetGitHubStateType = {
-    gitHubData: []
+    gitHubData: [],
+    isLoading: true,
   };
   
   export const getGitHubReducer = (
@@ -29,6 +30,7 @@ import {
           console.log(langaugeMap)
         return {
           ...state,
+          isLoading: false,
           gitHubData: langaugeMap
         };
       default:

@@ -4,6 +4,7 @@ export const GET_GIT_HUB_DATA = 'GET_GIT_HUB_DATA';
 
 export interface GetGitHubStateType {
   gitHubData: GitHub[];
+  isLoading: Boolean;
 }
 
 interface GetGitHubActionType {
