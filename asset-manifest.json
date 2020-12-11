@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-resume/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/my-resume/static/js/main.74b3d0da.chunk.js",
-    "main.js.map": "/my-resume/static/js/main.74b3d0da.chunk.js.map",
-    "runtime-main.js": "/my-resume/static/js/runtime-main.c401a947.js",
-    "runtime-main.js.map": "/my-resume/static/js/runtime-main.c401a947.js.map",
-    "static/js/2.6147d3ff.chunk.js": "/my-resume/static/js/2.6147d3ff.chunk.js",
-    "static/js/2.6147d3ff.chunk.js.map": "/my-resume/static/js/2.6147d3ff.chunk.js.map",
-    "static/js/3.44192dac.chunk.js": "/my-resume/static/js/3.44192dac.chunk.js",
-    "static/js/3.44192dac.chunk.js.map": "/my-resume/static/js/3.44192dac.chunk.js.map",
+    "main.js": "/my-resume/static/js/main.658081d7.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.658081d7.chunk.js.map",
+    "runtime-main.js": "/my-resume/static/js/runtime-main.7ce1b348.js",
+    "runtime-main.js.map": "/my-resume/static/js/runtime-main.7ce1b348.js.map",
+    "static/js/2.fc51ee1e.chunk.js": "/my-resume/static/js/2.fc51ee1e.chunk.js",
+    "static/js/2.fc51ee1e.chunk.js.map": "/my-resume/static/js/2.fc51ee1e.chunk.js.map",
+    "static/js/3.f651b3f9.chunk.js": "/my-resume/static/js/3.f651b3f9.chunk.js",
+    "static/js/3.f651b3f9.chunk.js.map": "/my-resume/static/js/3.f651b3f9.chunk.js.map",
     "index.html": "/my-resume/index.html",
     "static/css/main.ab7136cd.chunk.css.map": "/my-resume/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.6147d3ff.chunk.js.LICENSE.txt": "/my-resume/static/js/2.6147d3ff.chunk.js.LICENSE.txt",
+    "static/js/2.fc51ee1e.chunk.js.LICENSE.txt": "/my-resume/static/js/2.fc51ee1e.chunk.js.LICENSE.txt",
     "static/media/go.4c88fbf9.svg": "/my-resume/static/media/go.4c88fbf9.svg",
     "static/media/html5.3efc40a5.svg": "/my-resume/static/media/html5.3efc40a5.svg",
     "static/media/java.a351f739.svg": "/my-resume/static/media/java.a351f739.svg",
@@ -21,9 +21,9 @@
     "static/media/typescript.a6305a73.svg": "/my-resume/static/media/typescript.a6305a73.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c401a947.js",
-    "static/js/2.6147d3ff.chunk.js",
+    "static/js/runtime-main.7ce1b348.js",
+    "static/js/2.fc51ee1e.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.74b3d0da.chunk.js"
+    "static/js/main.658081d7.chunk.js"
   ]
 }
