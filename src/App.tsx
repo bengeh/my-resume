@@ -17,7 +17,7 @@ function App() {
       <RightContainer>
         <PersonalProfileContent></PersonalProfileContent>
         <ContainerBreaker />
-        <ExperienceContent title={"hihi"}></ExperienceContent>
+        <ExperienceContent title={"EXPERIENCE"}></ExperienceContent>
         <ContainerBreaker/>
         <ExperienceContent title={"EDUCATION"}></ExperienceContent>
         <ContainerBreaker/>
