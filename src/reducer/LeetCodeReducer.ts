@@ -3,7 +3,6 @@ import {
     GetLeetCodeStateType,
     LeetCodeActionType
   } from '../types/LeetCodeTypes';
-  import { LeetCode } from '../interfaces/LeetCode'
   
   const initialStateGetLeetCodeData: GetLeetCodeStateType = {
     leetCodeData: {

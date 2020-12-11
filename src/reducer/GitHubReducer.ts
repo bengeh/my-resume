@@ -25,6 +25,7 @@ import {
                     langaugeMap[k.language] = 1
                 }
               }
+              return langaugeMap
           })
           console.log("this the language map...")
           console.log(langaugeMap)

@@ -43,14 +43,6 @@ const SummaryContent = () => {
                                 <StyledSVG>
                                     <use href={`${star}#stars-${starLevel}-star`}></use>
                                 </StyledSVG>
-                                {/* <StyledSVG>
-                                    <use xlinkHref="../assets/star.svg#stars-0-0-star"></use>
-                                </StyledSVG> */}
-                                {/* <svg className="icon">
-                                    <use xlinkHref="../assets/star.svg#stars-0-0-star"></use>
-                                </svg> */}
-                                {/* <StyledSVG src={Star}></StyledSVG> */}
-                                {/* <SummaryBar currentLevel={k.currentLevel}>{k.currentLevel}%</SummaryBar> */}
                             </SummaryContentContainer>
                         )
                     })
@@ -70,14 +62,6 @@ const SummaryContentContainer = styled.div`
 `;
 const Summary = styled.div``;
 
-
-const SummaryBar = styled.div<{currentLevel: number}>`
-    width: 50%;
-    border: 2px solid;
-    border-radius: 25px;
-    text-align: center;
-    background: linear-gradient(to right, lightgreen ${(props) => props.currentLevel}%, gray 0);
-`;
 
 const StyledSVG = styled.svg`
     display: block;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getLeetCodeData } from '../effects/LeetCodeEffects';
 import { AppState } from '../store';
@@ -11,7 +11,6 @@ const LeetCodeGraph = () => {
     let qnsDataColor: Array<String> = []
     
     let chartData: any = []
-    const [chartHaveData, setChartHaveData] = useState(false)
     const leetCodeData = useSelector((state: AppState) => state.leetCodeData);
 
     useEffect(() => {
