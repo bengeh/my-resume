@@ -60,7 +60,11 @@ const SummaryContentContainer = styled.div`
     justify-content: space-between;
     padding: 10px 0 10px 0;
 `;
-const Summary = styled.div``;
+const Summary = styled.div`
+    @media(max-width: 1024px) {
+        width: 50%;
+    }
+`;
 
 
 const StyledSVG = styled.svg`
@@ -70,7 +74,10 @@ const StyledSVG = styled.svg`
 	
 	&:not(:root) {
 		overflow: hidden;
-	}
+    }
+    @media(max-width: 1024px) {
+        width: 50%;
+    }
 `
 
 export default SummaryContent
