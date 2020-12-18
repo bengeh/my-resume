@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getGitHubData } from '../effects/GitHubEffects';
 import { AppState } from '../store';
 import { Doughnut } from 'react-chartjs-2';
+import loader from '../assets/loading.gif';
 
 
 const GitHubGraph = () => {
@@ -53,14 +54,30 @@ const GitHubGraph = () => {
                     display:true,
                     position:'top'
                   }
-            }}/> : <>SPINNER</>
+            }}/> : 
+                    <LoaderWrapper>
+                        <LoadingTitle>Git Hub Info</LoadingTitle>
+                        <LoadingImg src={loader} alt={"LOADING"}/>
+                    </LoaderWrapper>
         }
         </ChartWrapper>
     )
 }
 
 const ChartWrapper = styled.div`
+    display: flex;
     height: 250px;
 `;
+
+const LoaderWrapper = styled.div`
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+`
+const LoadingTitle = styled.span`
+`
+
+const LoadingImg = styled.img`
+`
 
 export default GitHubGraph
